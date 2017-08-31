@@ -1,5 +1,5 @@
 # terminal-stuff
-This is a guide for installing and configuring useful terminal tools for MacOSX
+This is a guide for installing and configuring useful terminal tools for MacOSX.
 
 ![Terminal screenshot](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
 
