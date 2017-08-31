@@ -27,4 +27,5 @@ brew install exa
 Add .vimrc to your home directory. Keep the old version just in case. This changes the way vim looks.
 Add .zshrc to your home directory. Keep the old version just in case. This changes the way the terminal looks and works.
   
+### Feedback
 This guide is made from memory, and is not tested in a fresh environment. I would apreciate feedback about any step that does not work on your computer.
