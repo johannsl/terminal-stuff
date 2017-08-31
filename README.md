@@ -1,6 +1,10 @@
 # terminal-stuff
 This is a gathering of useful terminal configurations and supporting guides for MacOSX.
 
+![alt text](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
+
+
+
 ## Get homebrew 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
