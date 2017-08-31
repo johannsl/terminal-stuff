@@ -1,7 +1,7 @@
 # terminal-stuff
 This is a gathering of useful terminal configurations and supporting guides for MacOSX.
 
-![whatisthis](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
+![Terminal screenshot](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
 
 
 
