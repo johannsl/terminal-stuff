@@ -1,5 +1,9 @@
 # terminal-stuff
-This is a gathering of useful terminal configurations and supporting guides for MacOSX.
+This is a guide for installing and configuring useful terminal tools for MacOSX.
+
+![Terminal screenshot](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
+
+
 
 ## Get homebrew 
 ```
@@ -15,7 +19,11 @@ brew cask install iterm2
 ```
 brew install zsh zsh-completions
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-chsh -s /bin/zsh #Change /bin/zsh with the path to your zsh. Check with which zsh
+chsh -s /bin/zsh 
+```
+Change /bin/zsh with the path to your zsh. Check this by using 
+```
+which zsh
 ```
 
 ## Get exa
