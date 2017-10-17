@@ -23,6 +23,3 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=233
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
-execute pathogen#infect()
-let g:javascript_enable_domhtmlcss = 1
-let g:jsx_ext_required = 0
