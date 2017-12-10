@@ -70,6 +70,8 @@ def writeToFile(connection, response, uptime):
         delta_time = (current_time - last_run).total_seconds() + time_buffer
         delta_hours = int(divmod(delta_time, 3600)[0])
         expected_iterations = delta_hours / frequency
+        if expected_iterations == 0:
+            expected_iterations = 1
         new_content.append(int(old_content[3]) + expected_iterations)
         new_content.append(int(old_content[4]) + 1)
         
