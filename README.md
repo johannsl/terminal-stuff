@@ -44,7 +44,7 @@ crontab -e
 ```
 The availability_write.py script is configurated to run every two hours.
 ```
-* * * * * cd path/to/terminal-stuff/ && python availability_write.py
+* */2 * * * cd path/to/terminal-stuff/ && python availability_write.py
 ```
 
 ## Check status
