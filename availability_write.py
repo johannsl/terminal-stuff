@@ -13,7 +13,7 @@ import datetime
 
 hostname = "8.8.8.8"
 frequency = 2 # hours
-time_buffer = 60 * 5 # seconds
+time_buffer = 60 * 2 # seconds
 
 def main():
     connection, response = pingInternet()
@@ -28,7 +28,7 @@ def pingInternet():
     else:
         return ["failure", response]
 
-def checkUptime():
+def checkUptime():G
     try:
         uptime = open("/proc/uptime", "r")
         uptime_seconds = float(uptime.readline().split()[0])
