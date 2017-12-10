@@ -48,7 +48,7 @@ The availability_write.py script is configurated to run every two hours.
 ```
 
 ## Check status
-Run the availability_read.py script to see availability values.
+Run the availability_read.py script to see server availability values.
 ```
 python availability_read.py
 ```
