@@ -28,7 +28,7 @@ def pingInternet():
     else:
         return ["failure", response]
 
-def checkUptime():G
+def checkUptime():
     try:
         uptime = open("/proc/uptime", "r")
         uptime_seconds = float(uptime.readline().split()[0])
