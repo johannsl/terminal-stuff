@@ -38,17 +38,17 @@ Add .zshrc to your home directory. Keep the old version just in case. This chang
 # Raspbian
 
 ## Crontab
-Add the write script to contab so that it is run on a schedule.
+Add the availability_write.py script to contab so that it is run on a schedule.
  ```
 crontab -e
 ```
-The write script is configurated to run every two hours.
+The availability_write.py script is configurated to run every two hours.
 ```
 * * * * * cd path/to/terminal-stuff/ && python availability_write.py
 ```
 
 ## Check status
-Run the read script to see availability scores.
+Run the availability_read.py script to see availability values.
 ```
 python availability_read.py
 ```
