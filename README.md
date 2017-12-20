@@ -1,9 +1,9 @@
 # terminal-stuff
 This is a guide for installing and configuring useful terminal tools for MacOSX and Raspbian.
 
-![Terminal screenshot](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
-
 # MacOSX
+
+![Terminal screenshot](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
 
 ## Get homebrew 
 ```
