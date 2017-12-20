@@ -45,7 +45,7 @@ crontab -e
 ```
 The availability_write.py script is configurated to run every two hours.
 ```
-0 */2 * * * cd path/to/terminal-stuff/ && python availability_write.py
+0 */2 * * * python path/to/terminal-stuff/availability_write.py
 ```
 
 
@@ -59,5 +59,5 @@ python availability_read.py
 ## Reconnect the wifi
 Add the wifi_rebooter.sh to your crontab. Since it doesn't write to disc we can run this as frequently as every fifth minute.
 ```
-*/5 * * * * cd path/to/terminal-stuff/ && bash wifi_rebooter.sh
+*/5 * * * * bash path/to/terminal-stuff/wifi_rebooter.sh
 ```
