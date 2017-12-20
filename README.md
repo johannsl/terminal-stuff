@@ -39,6 +39,7 @@ Add .zshrc to your home directory. Keep the old version just in case. This chang
 
 ## Crontab
 Add the availability_write.py script to contab so that it is run on a schedule.
+This script writes to two log files, status.txt and log.txt, which the availability_read.py uses.
  ```
 crontab -e
 ```
@@ -47,8 +48,16 @@ The availability_write.py script is configurated to run every two hours.
 0 */2 * * * cd path/to/terminal-stuff/ && python availability_write.py
 ```
 
+
 ## Check status
 Run the availability_read.py script to see server availability values.
+This basically reads from the status.txt file and calulates how much of the time the server and internet is up.
 ```
 python availability_read.py
+```
+
+## Reconnect the wifi
+Add the wifi_rebooter.sh to your crontab. Since it doesn't write to disc we can run this as frequently as every fifth minute.
+```
+*/5 * * * * cd path/to/terminal-stuff/ && bash wifi_rebooter.sh
 ```
