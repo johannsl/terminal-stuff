@@ -1,9 +1,9 @@
 # terminal-stuff
 This is a guide for installing and configuring useful terminal tools for MacOSX and Raspbian.
 
-# MacOSX
-
 ![Terminal screenshot](https://raw.githubusercontent.com/johannsl/terminal-stuff/master/example_image.png)
+
+# MacOSX
 
 ## Get homebrew 
 ```
@@ -45,7 +45,7 @@ crontab -e
 ```
 The availability_write.py script is configurated to run every two hours.
 ```
-0 */2 * * * python path/to/terminal-stuff/availability_write.py
+0 */2 * * * cd path/to/terminal-stuff/ && python availability_write.py
 ```
 
 
