@@ -18,9 +18,9 @@ def main():
         server_availability = float(content[4]) / float(content[3]) * 100
 
     print("SERVER AVAILABILITY STATUS:")
-    print("Internet availability: " + str(internet_availability) + " %")
-    print("Server availability: " + str(server_availability) + " %")
-    print("\n\n")
+    print("Internet availability:\t " + str(internet_availability) + " %")
+    print("Server availability:\t " + str(server_availability) + " %")
+    print("\n")
     return
 
 main()
