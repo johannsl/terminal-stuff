@@ -26,3 +26,4 @@ autocmd Filetype html setlocal ts=2 sts=2 sw=2
 :nnoremap dd "_dd
 :nnoremap x "_x
 :nnoremap ciw "_ciw
+:xnoremap p "_dP
