@@ -23,6 +23,8 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=233
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
+autocmd Filetype xml setlocal ts=2 sts=2 sw=2
+autocmd Filetype json setlocal ts=2 sts=2 sw=2
 :nnoremap dd "_dd
 :nnoremap x "_x
 :nnoremap ciw "_ciw
