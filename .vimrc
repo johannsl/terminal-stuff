@@ -30,3 +30,4 @@ autocmd Filetype json setlocal ts=2 sts=2 sw=2
 :nnoremap ciw "_ciw
 :xnoremap p "_dP
 set belloff=all
+set hlsearch "turn off with :noh
